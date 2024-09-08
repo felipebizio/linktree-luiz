@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Importar a fonte do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luiz Felipe Xavier Bizio</title>
+    <!-- Alterando o icone da pagina -->
+    <link rel="icon" href="./assets/list-outline.svg" type="image/x-icon">
+    <!-- Puxando o CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="profile">
+            <img src="./assets/eu.jpg" alt="Foto de Luiz">
+            <p>Luiz Felipe Xavier Bizio</p>
+        </div>
+
+        <div id="switch" onclick="toggleMode()">
+            <button></button>
+            <span></span>
+        </div>
+
+        <ul>
+            <li>
+                <!-- Target blanck serve para abrir uma nova aba ao clicar em algum link -->
+                <a href="https://exemplo.com" target="_blank">Projeto 1</a>  
+            </li>
+            <li>
+                <a href="https://exemplo.com" target="_blank">Projeto 2</a>
+            </li>
+            <li>
+                <a href="https://exemplo.com" target="_blank">Projeto 3</a>
+            </li>
+            <li>
+                <a href="https://exemplo.com" target="_blank">Projeto 4</a>
+            </li>
+        </ul>
+
+        <div id="social-links">
+            <a href="https://www.linkedin.com/in/luiz-felipe-xavier-bizio/" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="https://github.com/felipebizio" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://www.instagram.com/felipe_bizio/" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://twitter.com/BizioFelipe" target="_blank">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            
+        </div>
+        <!-- Roda Pé -->
+        <footer>Feito com ♥ por Luiz Felipe Xavier Bizio</footer>
+
+    </div>
+    <!-- Importando os icones do ION-ICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
